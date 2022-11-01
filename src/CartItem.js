@@ -37,7 +37,7 @@ class CartItem extends React.Component {
   }
   render () {
     console.log('this.props', this.props);
-    const { price, title, qty } = this.state;
+    const { price, title, qty } = this.props;
     return (
       <div className="cart-item">
       <div className="left-block">
@@ -80,7 +80,7 @@ const styles = {
     height: 110,
     width: 110,
     borderRadius: 4,
-    background: '#ccc'
+    background: 'cyan'
   }
 }
 
