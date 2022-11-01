@@ -1,13 +1,13 @@
 import React from 'react';
 
-import CartItem from './CartItem';
+//import CartItem from './CartItem';
 
 class Cart extends React.Component {
   render () {
-    
+    const arr =[1,2, "string" ,3,4,5];
     return (
-      <div>
-        <CartItem/>
+      <div className="cart">
+      {arr}
         </div>
     );
   }
