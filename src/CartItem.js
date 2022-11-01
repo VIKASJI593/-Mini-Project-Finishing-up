@@ -1,5 +1,3 @@
-//no-unused-vars
-
 import React from 'react';
 
 class CartItem extends React.Component {
@@ -48,7 +46,7 @@ class CartItem extends React.Component {
               alt="increase"
               className="action-icons"
               src="https://img.icons8.com/ios-glyphs/30/000000/plus.png"
-              onClick={() => this.increaseQuantity()}
+              onClick={() => this.props.onIncreaseQuantity(this.props.product)}
             />
             <img
               alt="decrease"
