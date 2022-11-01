@@ -7,8 +7,11 @@ class Cart extends React.Component {
     const arr = [ 1 , 2  , 3 , 4 , 5];
     return (
       <div className="cart">
-      {arr}
-        </div>
+
+      {arr.map((item) => {
+        return item+5
+      })}
+    </div>
     );
   }
 }
