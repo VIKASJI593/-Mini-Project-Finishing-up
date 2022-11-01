@@ -72,7 +72,7 @@ const styles = {
     height: 110,
     width: 110,
     borderRadius: 4,
-    background: 'cyan'
+    background: 'red'
   }
 }
 
