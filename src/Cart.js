@@ -9,7 +9,7 @@ class Cart extends React.Component {
       <div className="cart">
 
       {arr.map((item) => {
-        return item+5
+        return item + 5
       })}
     </div>
     );
