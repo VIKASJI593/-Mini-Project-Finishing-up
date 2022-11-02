@@ -1,20 +1,20 @@
-git branch Adding-total-price
+git branch total-price
 
 
-git checkout Adding-total-price
+git checkout total-price
 
 git add .
 
-git commit -m "Adding total price"         
+git commit -m "2-Adding total price"         
 
 git status
 
-git push -u origin Adding-total-price
+git push -u origin total-price
 
 
 
 
-git push -f -u origin Cart-to-App-total-cart
+git push -f -u origin total-cart
 
 Adding-products-count-to-Navbar
 
