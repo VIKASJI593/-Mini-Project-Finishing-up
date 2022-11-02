@@ -56,7 +56,7 @@ const styles = {
     height: 110,
     width: 110,
     borderRadius: 4,
-    background: 'red'
+    background: '#ccc'
   }
 }
 
