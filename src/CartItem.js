@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CartItem = (props) => {
-  console.log('this.props', this.props);
+  //console.log('this.props', this.props);
   const { price, title, qty } = props.product;
   const {
     product,
@@ -11,8 +11,6 @@ const CartItem = (props) => {
   } = props;
   return (
       <div className="cart-item">
-
-      {this.props.jsx}
 
       <div className="left-block">
       <img style={styles.image} alt = ""  
