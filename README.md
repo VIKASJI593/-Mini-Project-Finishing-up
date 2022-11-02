@@ -1,25 +1,22 @@
-git branch Cart-to-App-total-cart
+git branch Adding-total-price
 
 
-git checkout Cart-to-App-total-cart
+git checkout Adding-total-price
 
 git add .
 
-git commit -m "3 Moving state from Cart to App"         
+git commit -m "Adding total price"         
 
 git status
 
-git push -u origin Cart-to-App-total-cart
+git push -u origin Adding-total-price
 
 
 
 
+git push -f -u origin Cart-to-App-total-cart
 
-
-
-
-
-git push -f -u origin Adding-products-count-to-Navbar
+Adding-products-count-to-Navbar
 
 
 
